@@ -1,0 +1,313 @@
+<! DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Ira_Pandey MakeUp</title>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Playfair+Display");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  
+   h1{
+font-family:'Playfair Display', serif;
+font-weight:normal;
+border-top:1px solid #000;
+border-bottom:1px solid #000;
+padding:15px;
+line-height:25px;
+font-size:30px;
+text-align:center;
+}
+  .title{
+font-family:'Playfair Display', serif;
+font-weight:normal;
+border:1px solid #000;
+padding:15px;
+line-height:25px;
+font-size:30px;
+}
+
+header{
+    display: flex;
+justify-content:space-around;
+}
+
+.main-menu{
+   padding-top:15px;
+	
+}
+.menu-bar{
+list-style-type:none;
+}
+.menu-bar li{
+display:inline-block;
+font-size:20px;
+font-family:'Playfair Display', serif;
+padding:15px;
+}
+.four-slides{
+display:flex;
+margin:0;
+overflow:hidden;
+}
+
+.slider {
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 280px;
+  margin-top: 0px;
+  position: relative; }
+  .slider1 {
+  background-position: 100% 20%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 280px;
+  padding-bottom: 280px;
+  padding-right: 400px;
+  padding-left: 400px;
+  margin-top: 0px;
+  position: relative; }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .6; }
+  to {
+    opacity: 3; } }
+	
+	.about{
+	display:flex;
+margin:20px;
+margin-bottom:150px;
+margin-top:50px;
+	}
+	.text-about{
+	flex:50%;
+	max-width:50%;
+	margin-top:50px;
+	margin-right:50px;
+	font-family:'Playfair Display', serif;
+	}
+	.img-about{
+	flex:50%;
+	max-width:50%;
+	
+	}
+		.albums{
+	display:flex;
+
+	}
+	
+	.img-about1{
+
+position: relative;
+  width: 50%;
+	}
+	
+	
+.overlay {
+cursor:pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(89, 89, 89, 0.6);
+}
+
+.img-about1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #fff;
+  	font-family:'Playfair Display', serif;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.info{
+display:inline-block;
+background-color:#000;
+color:#fff;
+width:100%;
+text-align:center;
+font-family:'Playfair Display', serif;
+  font-size: 20px;
+}
+p{
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<header class="navbar">
+<p class="title">IRA_PANDEY</div>
+
+<nav class="main-menu">
+<ul class="menu-bar">
+<li>About</li>
+<li>Everyday</li>
+<li>Formal </li>
+<li>Wedding </li>
+<li>Art and Magazine</li>
+</ul>
+</nav>
+</header>
+
+<div class="four-slides">
+<div class="first-slider">
+ <div class = "slider fade" style="background-image: url(img/a2.jpg)"  >
+	
+</div>
+ <div class = "slider fade" style="background-image: url(img/a5.jpg)" >
+ 
+</div>
+ <div class = "slider fade" style="background-image: url(img/a4.jpg)" >
+ 
+</div>
+</div>
+<div class="second-slider">
+ <div class = "slider1 fade" style="background-image: url(img/p3.jpg)"  >
+	
+</div>
+ <div class = "slider1 fade" style="background-image: url(img/p2.jpg)" >
+ 
+</div>
+ <div class = "slider1 fade" style="background-image: url(img/p5.jpg)" >
+ 
+</div>
+</div>
+
+
+
+</div>
+
+<section>
+<h1>About</h1>
+<div class="about">
+
+<div class="img-about1"> <img   src="img/ab.jpg" alt="image" width="90%" ></div>
+<div class="text-about">Hi! Nice to meet you. My name is Julia and I’m photographer specialized in fashion/ Lifestyle 
+/ portrait/ travel photography. Since childhood for 10 years i studied in art school and now I found my self in photography. 
+<br><br>Art education helps me a lot to see the final shot at the moment of acting and to understand what i like and not. My passion is a fashion 
+and I love to work on fashion projects.
+I worked with «Dorogoe» magazine and made a campaign for Sundari Beauty studio located in Tomsk, Russia. 
+<br><br>In Milan I had a great chance to made shootings for models from Next Model Management, Industry Model Management,
+ Nologo Woman. Made fashion campaign for Razzo Jeans, La Leví</div>
+</div>
+</section>
+
+<section>
+<h1>Portfolio</h1>
+<div class="albums">
+<div class="img-about1"> <img   src="img/day.jpg" alt="image" width="100%" >
+  <div class="overlay">
+    <div class="text">Everyday</div>
+  </div>
+</div>
+<div class="img-about1"> <img   src="img/formal.jpg" alt="image" width="100%" >
+ <div class="overlay">
+    <div class="text">Formal</div>
+  </div>
+</div>
+</div>
+<div class="albums">
+<div class="img-about1"> <img   src="img/p1.jpg" alt="image" width="100%" >
+ <div class="overlay">
+    <div class="text">Wedding</div>
+  </div>
+</div>
+<div class="img-about1"> <img   src="img/art.jpg" alt="image" width="100%" >
+ <div class="overlay">
+    <div class="text">Art and Magazine</div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<footer>
+<div class = "info">
+<p><span style="font-family:Palatino Linotype;">+78979879879</span> |
+irapandey@mail.ru |
+instagram</p>
+</div>
+</footer>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slider");
+   
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].className = slides[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); 
+}
+
+
+</script>
+<script>
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
+    var i;
+    var slides = document.getElementsByClassName("slider1");
+   
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex1++;
+    if (slideIndex1 > slides.length) {slideIndex1 = 1}    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].className = slides[i].className.replace(" active", "");
+    }
+    slides[slideIndex1-1].style.display = "block";  
+    slides[slideIndex1-1].className += " active";
+    setTimeout(showSlides1, 3000); 
+}
+
+
+</script>
+</body>
+</html>
